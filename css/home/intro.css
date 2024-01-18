@@ -1,0 +1,50 @@
+.intro-bg {
+  background-color: #000000;
+}
+
+.intro {
+  max-width: 1200px;
+  color: #ffffff;
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  margin: 0 auto;
+  gap: 80px;
+  align-items: center;
+}
+
+.intro-info {
+  padding-bottom: 200px;
+}
+
+.intro-title {
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 1.111;
+  margin-bottom: 24px;
+}
+
+.intro-text {
+  font-size: 1.125rem;
+  color: #c4c4c4;
+  line-height: 1.333;
+  margin-bottom: 48px;
+}
+
+.intro-btn {
+  display: block;
+  color: #320;
+  padding: 16px 32px;
+  background: var(
+    --gradient,
+    linear-gradient(6deg, #e99a00 4.2%, #ffc335 95.26%)
+  );
+  width: fit-content;
+  border-radius: 5px;
+}
+
+@media (max-width: 1300px) {
+  .intro {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
