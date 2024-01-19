@@ -1,3 +1,12 @@
+h1,
+a {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
 ul {
   margin: 0px;
   padding: 0;
@@ -11,6 +20,7 @@ p {
 
 body {
   margin: 0;
+  margin-bottom: 1000px;
 }
 
 a {
