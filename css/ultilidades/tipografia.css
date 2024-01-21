@@ -1,0 +1,79 @@
+.font-poppins-xxl-sb {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 1.125;
+}
+
+.font-poppins-xl-sb {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 3.75rem;
+  font-weight: 600;
+  line-height: 1.111;
+}
+
+.font-poppins-ll-sb {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 2.25rem;
+  font-weight: 600;
+  line-height: 1.111;
+}
+
+.font-poppins-l-sb {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.333;
+}
+
+.font-poppins-m-med {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.font-poppins-s-sb {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.111;
+}
+
+.font-poppins-s-sb-UC-1 {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.111;
+  letter-spacing: 1%;
+  text-transform: uppercase;
+}
+
+.font-poppins-ss-med {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.font-poppins-xs-med {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.428;
+}
+
+.font-poppins-xxs-med-1 {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.333;
+}
+
+.font-poppins-xxs-sb-UC-1 {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.333;
+  text-transform: uppercase;
+}

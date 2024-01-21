@@ -6,7 +6,6 @@ body {
 }
 
 .header-menu a {
-  color: #ffffff;
   position: relative;
   display: block;
 }
@@ -17,7 +16,7 @@ body {
   display: block;
   height: 2px;
   width: 0px;
-  background-color: #ffffff;
+  background-color: var(--cor-1);
   position: absolute;
   transition: 0.3s;
 }
@@ -27,7 +26,7 @@ body {
 }
 
 .header-bg {
-  background-color: #000000;
+  background-color: var(--cor-12);
 }
 
 .header-menu {
@@ -54,11 +53,8 @@ body {
     gap: 10px;
   }
 
-  .header-menu a:hover {
-    background-color: #111111;
-  }
-
   .header-menu a {
+    background-color: var(--cor-11);
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 1rem;
@@ -66,11 +62,16 @@ body {
   .header-menu a::after {
     display: none;
   }
+  .header-menu a:hover {
+    color: var(--cor-7);
+    transition: 0.3s;
+  }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .header-menu {
     justify-content: center;
+    flex-direction: column;
   }
 
   .header-menu li {

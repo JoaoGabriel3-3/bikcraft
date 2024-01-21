@@ -3,10 +3,17 @@ a {
   font-family: Poppins, Arial, Helvetica, sans-serif;
 }
 
+a {
+  color: inherit;
+}
+
 p {
   font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
+li {
+  list-style: none;
+}
 ul {
   margin: 0px;
   padding: 0;
@@ -20,7 +27,6 @@ p {
 
 body {
   margin: 0;
-  margin-bottom: 1000px;
 }
 
 a {

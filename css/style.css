@@ -1,4 +1,7 @@
 @import "/css/global.css";
-@import "/css/compontentes.css";
+@import "/css/ultilidades/cores.css";
+
+@import "/css/ultilidades/compontentes.css";
+
 @import "/css/home/header.css";
 @import "/css/home/intro.css";
