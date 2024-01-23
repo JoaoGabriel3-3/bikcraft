@@ -16,18 +16,14 @@
 }
 
 .introducao h1 {
-  font-size: 4rem;
-  line-height: 1.125;
   margin-bottom: 24px;
 }
 
 .introducao p {
-  font-size: 1.125rem;
   margin-bottom: 24px;
 }
 
 .introducao img {
-  border-radius: 5px;
   height: 100%;
   object-fit: cover;
 }
@@ -37,35 +33,9 @@
   padding-bottom: 200px;
 }
 
-@media (max-width: 1000px) {
-  .introducao h1 {
-    font-size: 3rem;
-  }
-
-  .introducao p {
-    font-size: 1rem;
-  }
-
-  .introducao a {
-    font-size: 1rem;
-    padding: 12px 24px;
-  }
-}
-
 @media (max-width: 900px) {
   .introducao {
     gap: 0 20px;
-  }
-  .introducao h1 {
-    font-size: 2rem;
-  }
-
-  .introducao p {
-    font-size: 0.875rem;
-  }
-
-  .introducao a {
-    padding: 10px 20px;
   }
 
   .introducao-info {
