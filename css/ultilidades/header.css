@@ -32,13 +32,10 @@ body {
 .header-menu {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
-  max-width: 1200px;
-  box-sizing: border-box;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
   flex-wrap: wrap;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .header-menu ul {
