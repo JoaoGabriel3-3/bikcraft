@@ -71,4 +71,8 @@
   .tecnologia-intro a {
     margin-bottom: 60px;
   }
+
+  .tecnologia-informacoes {
+    flex-direction: column;
+  }
 }

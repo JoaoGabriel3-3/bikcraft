@@ -54,6 +54,15 @@
   font: 600 4rem/1.125 "Poppins", sans-serif;
 }
 
+.font-3-l,
+.font-3-l-i {
+  font: 500 2rem/1.2 "Lora", serif;
+}
+
+.font-3-l-i {
+  font-style: italic;
+}
+
 @media (max-width: 1200px) {
   .font-1-xxl {
     font-size: 3rem;

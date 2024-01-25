@@ -4,6 +4,7 @@
 }
 
 .introducao {
+  padding-top: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0 60px;
