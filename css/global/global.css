@@ -4,6 +4,7 @@ a {
 }
 
 a {
+  font: inherit;
   color: inherit;
 }
 
