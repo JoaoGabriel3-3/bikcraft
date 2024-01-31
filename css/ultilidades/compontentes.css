@@ -28,6 +28,25 @@
   color: var(--cor-6);
 }
 
+.botao.seta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.botao.seta::after {
+  content: "";
+  background-image: url(/img/icones/seta.svg);
+  display: block;
+  width: 18px;
+  height: 10px;
+  transition: transform 0.3s;
+}
+
+.botao.seta:hover::after {
+  transform: translateX(4px);
+}
+
 .botao:hover {
   background: linear-gradient(#df980e, #cf7c00);
   transition: 0.3s;
@@ -38,4 +57,18 @@
     padding: 12px 16px;
     font-size: 1rem;
   }
+}
+
+/* Termos */
+.titulo-bg {
+  background-color: var(--cor-11);
+}
+
+.titulo {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.titulo-bg.branco {
+  background-color: var(--cor-1);
 }

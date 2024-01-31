@@ -15,8 +15,11 @@ p {
 li {
   list-style: none;
 }
-ul {
-  margin: 0px;
+ul,
+dl,
+dt,
+dd {
+  margin: 0;
   padding: 0;
   text-decoration: none;
 }
@@ -47,4 +50,12 @@ img {
 
 img[src$=".jpg"] {
   border-radius: 5px;
+}
+
+.logo-link {
+  background: none !important;
+}
+
+.logo-link:hover::after {
+  display: none;
 }
