@@ -3,6 +3,10 @@ a {
   font-family: Poppins, Arial, Helvetica, sans-serif;
 }
 
+span {
+  display: inline-block;
+}
+
 a {
   font: inherit;
   color: inherit;

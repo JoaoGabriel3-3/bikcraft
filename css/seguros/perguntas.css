@@ -13,7 +13,7 @@
 }
 
 .perguntas dl > div:nth-child(odd) {
-  background-color: var(--cor-1);
+  background-color: var(--cor-2);
 }
 
 .perguntas dt {

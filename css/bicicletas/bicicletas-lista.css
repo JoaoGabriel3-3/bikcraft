@@ -3,10 +3,8 @@
   padding-bottom: 120px;
 }
 
-@media (max-width: 800px) {
-  .bicicletas-lista {
-    padding-bottom: 60px;
-  }
+#bicicleta-interna .bicicletas-lista {
+  padding-bottom: 60px;
 }
 
 .bicicletas-lista h2 {
@@ -56,4 +54,20 @@
 .bicicletas-lista a {
   display: block;
   position: relative;
+}
+
+@media (max-width: 800px) {
+  .bicicletas-lista {
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 900px) {
+  .bicicletas-lista {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .bicicletas-lista h2 {
+    padding-bottom: 40px;
+  }
 }
