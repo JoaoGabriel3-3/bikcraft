@@ -2,6 +2,7 @@
 @import "/css/ultilidades/compontentes.css";
 @import "/css/ultilidades/cores.css";
 @import "/css/ultilidades/tipografia.css";
+@import "/css/ultilidades/formulario.css";
 
 /* Global */
 @import "/css/global/global.css";
@@ -26,6 +27,10 @@
 @import "/css/seguros/seguros.css";
 @import "/css/seguros/vantagens.css";
 @import "/css/seguros/perguntas.css";
+
+/* Contato */
+@import "/css/contatos/contatos.css";
+@import "/css/contatos/lojas.css";
 
 /* Termos */
 @import "/css/termos/termos.css";
