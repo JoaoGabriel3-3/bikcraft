@@ -29,6 +29,7 @@
 .footer-redes {
   display: flex;
   margin-top: 16px;
+  gap: 20px;
 }
 
 .footer-copy {

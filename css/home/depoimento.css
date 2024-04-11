@@ -1,5 +1,5 @@
 .depoimento {
-  background-color: var(--cor-p-1);
+  background: var(--cor-p-1);
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 72px;
@@ -30,6 +30,12 @@
   align-self: center;
   padding: 80px;
   padding-right: 0px;
+}
+
+@media (min-width: 1200px) {
+  .depoimento img {
+    max-height: 520px;
+  }
 }
 
 @media (max-width: 1000px) {
