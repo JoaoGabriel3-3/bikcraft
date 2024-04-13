@@ -33,9 +33,10 @@ function ativarPergunta(event) {
   const pergunta = event.currentTarget;
   const controls = pergunta.getAttribute("aria-controls");
   const resposta = document.getElementById(controls);
+
+  resposta.classList.toggle("ativa");
   const ativa = resposta.classList.contains("ativa");
   pergunta.setAttribute("aria-expanded", ativa);
-  resposta.classList.toggle("ativa");
 }
 
 function eventoPerguntas(pergunta) {
@@ -43,3 +44,28 @@ function eventoPerguntas(pergunta) {
 }
 
 perguntas.forEach(eventoPerguntas);
+
+//Galeria de Bikcrafts
+
+const galeria = document.querySelectorAll(".bicicleta-imgs img");
+const galeriaContainer = document.querySelector(".bicicleta-imgs");
+
+function mudarImg(event) {
+  const img = event.currentTarget;
+  const media = matchMedia("(min-width:1000px)").matches;
+  if (media) {
+    galeriaContainer.prepend(img);
+  }
+}
+
+function eventosGaleria(img) {
+  img.addEventListener("click", mudarImg);
+}
+
+galeria.forEach(eventosGaleria);
+
+//Animção plugin
+if (window.SimpleAnime){
+  new SimpleAnime();
+}
+

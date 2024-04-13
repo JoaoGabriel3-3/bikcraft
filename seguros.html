@@ -11,6 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Poppins:wght@500;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <script>document.documentElement.classList.add('js')</script>
 </head>
 
 <body>
@@ -30,13 +31,13 @@
   <main>
     <div class="titulo-bg">
       <div class="titulo container">
-        <h1 class="font-1-xxl cor-2">seguros bikcraft<span class="cor-p-1">.</span></h1>
+        <h1 class="font-1-xxl cor-2 fadeInDown" data-anime="200">seguros bikcraft<span class="cor-p-1">.</span></h1>
       </div>
     </div>
 
     <article class="seguros-bg">
       <div class="seguros container">
-        <div class="seguros-item">
+        <div class="seguros-item fadeInLeft" data-anime="400">
           <h3 class="font-1-xl cor-7">Prata</h3>
           <span class="font-1-xl cor-2">R$199<span class="font-1-xs cor-7">por mês</span></span>
           <ul class="font-2-m cor-2">
@@ -47,7 +48,7 @@
           </ul>
           <a href="./orcamento.html?tipo=seguro&produto=prata" class="botao secundario">inscreva-se</a>
         </div>
-        <div class="seguros-item ouro">
+        <div class="seguros-item ouro fadeInRight" data-anime="500">
           <h3 class="font-1-xl cor-p-4">Ouro</h3>
           <span class="font-1-xl cor-p-5">R$299<span class="font-1-xs cor-p-3">por mês</span></span>
           <ul class="font-2-m cor-p-5">
@@ -179,6 +180,7 @@
       <p class="footer-copy font-2-m-b cor-4">Bikcraft. Alguns direitos reservados</p>
     </div>
   </footer>
+  <script src="./plugins/simple-anime.js"></script>
   <script src="./js/script.js"></script>
 </body>
 
